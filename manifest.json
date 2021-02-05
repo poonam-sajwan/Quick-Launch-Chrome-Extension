@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Quick Launch",
+  "version": "1.0.0",
+  "description": "Fast Access to your Favourite Sites!",
+  "icons": {
+    "128": "icon.png"
+},
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"]
+}

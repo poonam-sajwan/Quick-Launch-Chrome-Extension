@@ -1,0 +1,47 @@
+html,body{
+  padding:0;
+  margin: 0;
+
+    background-color: #eff7e1;
+}
+header{
+      /* display: flex; */
+      display: none;
+      justify-content: flex-end;
+      padding: 0 40px;
+}
+header h2{
+  margin: 10px;
+}
+.header{
+  font-family: 'Potta One', cursive;
+  display: flex;
+      justify-content: center;
+      font-size: 25px;
+}
+.content{
+  display: flex;
+      justify-content: center;
+      font-family: 'Yusei Magic', sans-serif;
+      font-size: 20px;
+}
+.extension-icons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    border: 2px solid black;
+    width: 50%;
+    margin: 2vw 25vw;
+
+}
+.icon{
+
+    display: flex;
+    padding: 5vw 6vw;
+
+    font-size: 40px;
+    height: auto;
+}
+a{
+
+}
